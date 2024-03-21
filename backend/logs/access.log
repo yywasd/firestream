@@ -1,0 +1,2 @@
+{"@timestamp":"2024-03-14T17:25:38.759+08:00","caller":"handler/loghandler.go:147","content":"[HTTP] 400 - POST /auth - 127.0.0.1:52198 - PostmanRuntime/7.37.0","duration":"0.5ms","level":"info","span":"19ebd21e89b90346","trace":"1c7607e2ec62f6becd5624d743b9a39b"}
+{"@timestamp":"2024-03-14T17:27:04.504+08:00","caller":"handler/loghandler.go:147","content":"[HTTP] 400 - POST /auth - 127.0.0.1:52371 - PostmanRuntime/7.37.0","duration":"409.4ms","level":"info","span":"43e266a3871e1dc5","trace":"5a8fc8d9708f3e6ed7eb271096638502"}

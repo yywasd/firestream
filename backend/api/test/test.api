@@ -1,0 +1,25 @@
+syntax = "v1"
+
+type Request {
+	Name string `path:"name,options=you|me"`
+}
+
+type Response {
+	Message string `json:"message"`
+}
+
+type AuthRequset {
+	Username string `json:"username"`
+	Password string `json:"password"`
+}
+
+type AuthResponse {
+	Token string `json:"token"`
+}
+
+service test-api {
+	@handler TestHandler
+	get /from/:name (Request) returns (Response)
+	@handler AuthHandler
+	post /auth (AuthRequset) returns (AuthResponse)
+}
